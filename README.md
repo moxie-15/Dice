@@ -1,21 +1,40 @@
-<<<<<<< HEAD
-# dicees
+🎲 Flutter Dice App
+📌 Project Overview
 
-A new Flutter project.
+This project is part of my Flutter Basics Learning Roadmap.
+I built a Dice App that simulates rolling dice using Flutter widgets, images, and state management.
+The app demonstrates how to create interactive UI elements where the dice values change when a button is pressed or when the dice itself is clicked.
 
-## Getting Started
+🛠️ Features
 
-This project is a starting point for a Flutter application.
+🎨 Custom UI with Scaffold & AppBar
 
-A few resources to get you started if this is your first Flutter project:
+🧊 Images as dice faces (dynamically rendered)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🎲 Random number generation (dart:math) for dice rolls
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Dice
-dice app
->>>>>>> caa7aa3acbbc5e16313ad53a9c8efebe97bf6658
+🔄 StatefulWidget & setState to update UI in real-time
+
+📱 Two interaction methods:
+
+Button press to roll the first dice
+
+Clicking directly on the second dice image
+
+🎯 What I Learned
+
+This app focuses on core Flutter concepts, including:
+
+✅ Difference between StatelessWidget vs StatefulWidget
+
+✅ Managing UI updates with setState
+
+✅ Using Row and Column for responsive layouts
+
+✅ Adding and displaying local image assets
+
+✅ Styling TextButtons
+
+✅ Handling user interactions (button clicks & image taps)
+
+✅ Implementing randomness with Random() from dart:math
